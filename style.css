@@ -18,19 +18,20 @@
 .login{
    
     background-color:white;
-    z-index: 11;
+    z-index: 1;
     /* display: flex;
     justify-content: center; */
 }
 
 .signup{
-    background-color: blue;
-    z-index: 10;
+    background-color:white;
+    z-index: 2;
+    height: 550px;
 }
 
 .two-step-authentication{
     background-color: red;
-    z-index: 2;
+    z-index: -3;
 }
 h1{
     text-align: center;
@@ -87,11 +88,11 @@ button{
   .login-footer{
     border-top: 2px solid green;
   }
-  .login-footer a{
+   a{
     color: green;
     text-decoration: none;
   }
-  .login-footer a:hover{
+   a:hover{
     color: blue;
   }
 
