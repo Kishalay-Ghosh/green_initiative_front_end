@@ -1,0 +1,98 @@
+
+.outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.same{
+    height: 500px;
+    width: 400px;
+    border-radius: 4%;
+    color:black;
+    top: 1px;
+    position: absolute;
+    margin-top: 100px;
+    border: 2px solid green;
+}
+
+.login{
+   
+    background-color:white;
+    z-index: 11;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.signup{
+    background-color: blue;
+    z-index: 10;
+}
+
+.two-step-authentication{
+    background-color: red;
+    z-index: 2;
+}
+h1{
+    text-align: center;
+   color: rgb(7, 147, 7);
+    height: 40px;
+}
+.login-logo{
+    height: 80px;
+    width: 80px;
+    background-image: url("profile.png");
+    background-size: cover;
+    margin-left: 160px;
+   
+    
+} 
+
+.login-details{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid green;
+
+    
+}
+ .login-details p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+} 
+
+input[type=text], input[type=password] {
+    width: 80%;
+   height: 2rem;
+   border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+  }
+button{
+    width: 80%;
+    height: 5ex;
+    background-color:rgb(7, 147, 7);;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer
+  }
+  
+  button:hover {
+    background-color: rgba(0, 255, 0, .5);
+    color: black;
+  }
+
+  .login-footer{
+    border-top: 2px solid green;
+  }
+  .login-footer a{
+    color: green;
+    text-decoration: none;
+  }
+  .login-footer a:hover{
+    color: blue;
+  }
+
+  
